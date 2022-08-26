@@ -337,7 +337,7 @@ maximum_distance_above_surface_in_meters::numeric as  "maximumdistance_abovesurf
 "_last_modified"::timestamp(6),
 "_last_modified_user",
 "biological_group"
- from ccud_pda2_sincroniza.biodiversity
+ from ccud_pda2.biodiversity
 /* 
 where
 ( ccud_pda2.biodiversity.dataset_id  = 'IBUNAM:MEXU:AL' or ccud_pda2.biodiversity.dataset_id  = 'IBUNAM:MEXU:FS'  or ccud_pda2.biodiversity.dataset_id  = 'IBUNAM:MEXU:FU' or ccud_pda2.biodiversity.dataset_id  = 'IBUNAM:MEXU:LI' or ccud_pda2.biodiversity.dataset_id  = 'IBUNAM:MEXU:XI' ) and
